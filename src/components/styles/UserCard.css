@@ -1,0 +1,72 @@
+.user-card {
+  padding: 1.5em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 380px;
+  height: max-content;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.bg__btn__delete {
+  margin-right: 0.8em;
+  background-color: #d93f3f;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+.content__btns {
+  display: flex;
+  padding: 0.5em 0;
+  align-items: center;
+  justify-content: end;
+}
+.icon__actions {
+  width: 100%;
+}
+.bg__btn__edit {
+  background-color: #f6f6f6;
+
+  border: solid 1px #bdbdbd;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}
+.name__user__card {
+  font-family: Helvetica Neue;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 0.3em;
+}
+.info__user__card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.info__email__user__card {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #d3d3d3;
+  font-weight: 400;
+}
+.info__birthday__user__card {
+  color: #d3d3d3;
+  font-weight: 400;
+}
+.content__user__card {
+  gap: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px #e5e5e5;
+  border-bottom: solid 1px #e5e5e5;
+  padding: 0.5em 0;
+  justify-content: space-between;
+}
+.content__date__user__card {
+  display: flex;
+  align-items: end;
+}
