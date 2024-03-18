@@ -38,11 +38,7 @@ function App() {
       <header className="app__header">
         <h1 className="app__tilte">Usuarios</h1>
         <button onClick={handleOpenForm} className=" form__btn">
-          <img
-            src="../public/images/icons8-más-24.png"
-            className="icon"
-            alt=""
-          />{" "}
+          <img src="../images/icons8-más-24.png" className="icon" alt="" />{" "}
           Crear nuevo usuario
         </button>
       </header>
